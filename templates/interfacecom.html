@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}  {{ title }}  {% endblock %}
+
+{% block content %}
+
+<div>
+    <div class="table">
+    <table>
+    {% for post in posts %}
+
+        <tr>
+            <th scope="col">Auteur : {{ post[0] }}</th>
+            <th scope="col">Description: {{ post[1] }}</th>
+            <th scope="col">Date d'envoie : {{ post[2] }}</th>
+        </tr>
+
+
+    {% endfor %}
+    </table>
+        <a href="/ajout-com"><input class="modif"
+       type="button"
+       value="Ajouter un commentaire"></a>
+    </div>
+</div>
+<a href="/user"><input class="modif"
+       type="button"
+       value="Accueil"></a>
+{% endblock %}
