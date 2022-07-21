@@ -1,2 +1,4 @@
-# projet-python-V2
-modification du projet original créer par axel yohann et hugo 
+# Projet-Transversal-TPRE215
+
+#Identifiant de connexion soit login : axel mdp : axel ou login : yohann mdp : yohann
+#
